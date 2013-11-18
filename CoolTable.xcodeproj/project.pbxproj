@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCAB1A90183A951400FBD794 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAB1A8F183A951400FBD794 /* Foundation.framework */; };
+		BCAB1A92183A951400FBD794 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAB1A91183A951400FBD794 /* CoreGraphics.framework */; };
+		BCAB1A94183A951400FBD794 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAB1A93183A951400FBD794 /* UIKit.framework */; };
+		BCAB1A9A183A951400FBD794 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCAB1A98183A951400FBD794 /* InfoPlist.strings */; };
+		BCAB1A9C183A951400FBD794 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAB1A9B183A951400FBD794 /* main.m */; };
+		BCAB1AA0183A951400FBD794 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAB1A9F183A951400FBD794 /* AppDelegate.m */; };
+		BCAB1AA3183A951400FBD794 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCAB1AA1183A951400FBD794 /* Main.storyboard */; };
+		BCAB1AA8183A951400FBD794 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCAB1AA7183A951400FBD794 /* Images.xcassets */; };
+		BCAB1AAF183A951400FBD794 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAB1AAE183A951400FBD794 /* XCTest.framework */; };
+		BCAB1AB0183A951400FBD794 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAB1A8F183A951400FBD794 /* Foundation.framework */; };
+		BCAB1AB1183A951400FBD794 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAB1A93183A951400FBD794 /* UIKit.framework */; };
+		BCAB1AB9183A951400FBD794 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCAB1AB7183A951400FBD794 /* InfoPlist.strings */; };
+		BCAB1ABB183A951400FBD794 /* CoolTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAB1ABA183A951400FBD794 /* CoolTableTests.m */; };
+		BCAB1AC6183A955300FBD794 /* CoolTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAB1AC5183A955300FBD794 /* CoolTableViewController.m */; };
+		BCAB1AC8183A9C5800FBD794 /* muxi.png in Resources */ = {isa = PBXBuildFile; fileRef = BCAB1AC7183A9C5800FBD794 /* muxi.png */; };
+		BCAB1ACB183AA09B00FBD794 /* CustomCellBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAB1ACA183AA09B00FBD794 /* CustomCellBackground.m */; };
+		BCAB1ACE183AB23800FBD794 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAB1ACD183AB23800FBD794 /* Common.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCAB1AB2183A951400FBD794 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCAB1A84183A951400FBD794 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCAB1A8B183A951400FBD794;
+			remoteInfo = CoolTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCAB1A8C183A951400FBD794 /* CoolTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCAB1A8F183A951400FBD794 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCAB1A91183A951400FBD794 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BCAB1A93183A951400FBD794 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BCAB1A97183A951400FBD794 /* CoolTable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoolTable-Info.plist"; sourceTree = "<group>"; };
+		BCAB1A99183A951400FBD794 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCAB1A9B183A951400FBD794 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCAB1A9D183A951400FBD794 /* CoolTable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoolTable-Prefix.pch"; sourceTree = "<group>"; };
+		BCAB1A9E183A951400FBD794 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCAB1A9F183A951400FBD794 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCAB1AA2183A951400FBD794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCAB1AA7183A951400FBD794 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BCAB1AAD183A951400FBD794 /* CoolTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoolTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCAB1AAE183A951400FBD794 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BCAB1AB6183A951400FBD794 /* CoolTableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoolTableTests-Info.plist"; sourceTree = "<group>"; };
+		BCAB1AB8183A951400FBD794 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCAB1ABA183A951400FBD794 /* CoolTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoolTableTests.m; sourceTree = "<group>"; };
+		BCAB1AC4183A955300FBD794 /* CoolTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoolTableViewController.h; sourceTree = SOURCE_ROOT; };
+		BCAB1AC5183A955300FBD794 /* CoolTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoolTableViewController.m; sourceTree = SOURCE_ROOT; };
+		BCAB1AC7183A9C5800FBD794 /* muxi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = muxi.png; sourceTree = "<group>"; };
+		BCAB1AC9183AA09B00FBD794 /* CustomCellBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellBackground.h; sourceTree = "<group>"; };
+		BCAB1ACA183AA09B00FBD794 /* CustomCellBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellBackground.m; sourceTree = "<group>"; };
+		BCAB1ACC183AB23800FBD794 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		BCAB1ACD183AB23800FBD794 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCAB1A89183A951400FBD794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAB1A92183A951400FBD794 /* CoreGraphics.framework in Frameworks */,
+				BCAB1A94183A951400FBD794 /* UIKit.framework in Frameworks */,
+				BCAB1A90183A951400FBD794 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAB1AAA183A951400FBD794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAB1AAF183A951400FBD794 /* XCTest.framework in Frameworks */,
+				BCAB1AB1183A951400FBD794 /* UIKit.framework in Frameworks */,
+				BCAB1AB0183A951400FBD794 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCAB1A83183A951400FBD794 = {
+			isa = PBXGroup;
+			children = (
+				BCAB1AC9183AA09B00FBD794 /* CustomCellBackground.h */,
+				BCAB1ACA183AA09B00FBD794 /* CustomCellBackground.m */,
+				BCAB1A95183A951400FBD794 /* CoolTable */,
+				BCAB1AB4183A951400FBD794 /* CoolTableTests */,
+				BCAB1A8E183A951400FBD794 /* Frameworks */,
+				BCAB1A8D183A951400FBD794 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCAB1A8D183A951400FBD794 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCAB1A8C183A951400FBD794 /* CoolTable.app */,
+				BCAB1AAD183A951400FBD794 /* CoolTableTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCAB1A8E183A951400FBD794 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCAB1A8F183A951400FBD794 /* Foundation.framework */,
+				BCAB1A91183A951400FBD794 /* CoreGraphics.framework */,
+				BCAB1A93183A951400FBD794 /* UIKit.framework */,
+				BCAB1AAE183A951400FBD794 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCAB1A95183A951400FBD794 /* CoolTable */ = {
+			isa = PBXGroup;
+			children = (
+				BCAB1A9E183A951400FBD794 /* AppDelegate.h */,
+				BCAB1A9F183A951400FBD794 /* AppDelegate.m */,
+				BCAB1AC4183A955300FBD794 /* CoolTableViewController.h */,
+				BCAB1AC5183A955300FBD794 /* CoolTableViewController.m */,
+				BCAB1ACC183AB23800FBD794 /* Common.h */,
+				BCAB1ACD183AB23800FBD794 /* Common.m */,
+				BCAB1AA1183A951400FBD794 /* Main.storyboard */,
+				BCAB1AA7183A951400FBD794 /* Images.xcassets */,
+				BCAB1A96183A951400FBD794 /* Supporting Files */,
+			);
+			path = CoolTable;
+			sourceTree = "<group>";
+		};
+		BCAB1A96183A951400FBD794 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCAB1AC7183A9C5800FBD794 /* muxi.png */,
+				BCAB1A97183A951400FBD794 /* CoolTable-Info.plist */,
+				BCAB1A98183A951400FBD794 /* InfoPlist.strings */,
+				BCAB1A9B183A951400FBD794 /* main.m */,
+				BCAB1A9D183A951400FBD794 /* CoolTable-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCAB1AB4183A951400FBD794 /* CoolTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCAB1ABA183A951400FBD794 /* CoolTableTests.m */,
+				BCAB1AB5183A951400FBD794 /* Supporting Files */,
+			);
+			path = CoolTableTests;
+			sourceTree = "<group>";
+		};
+		BCAB1AB5183A951400FBD794 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCAB1AB6183A951400FBD794 /* CoolTableTests-Info.plist */,
+				BCAB1AB7183A951400FBD794 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCAB1A8B183A951400FBD794 /* CoolTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCAB1ABE183A951400FBD794 /* Build configuration list for PBXNativeTarget "CoolTable" */;
+			buildPhases = (
+				BCAB1A88183A951400FBD794 /* Sources */,
+				BCAB1A89183A951400FBD794 /* Frameworks */,
+				BCAB1A8A183A951400FBD794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoolTable;
+			productName = CoolTable;
+			productReference = BCAB1A8C183A951400FBD794 /* CoolTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCAB1AAC183A951400FBD794 /* CoolTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCAB1AC1183A951400FBD794 /* Build configuration list for PBXNativeTarget "CoolTableTests" */;
+			buildPhases = (
+				BCAB1AA9183A951400FBD794 /* Sources */,
+				BCAB1AAA183A951400FBD794 /* Frameworks */,
+				BCAB1AAB183A951400FBD794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCAB1AB3183A951400FBD794 /* PBXTargetDependency */,
+			);
+			name = CoolTableTests;
+			productName = CoolTableTests;
+			productReference = BCAB1AAD183A951400FBD794 /* CoolTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCAB1A84183A951400FBD794 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Chao Xu";
+				TargetAttributes = {
+					BCAB1AAC183A951400FBD794 = {
+						TestTargetID = BCAB1A8B183A951400FBD794;
+					};
+				};
+			};
+			buildConfigurationList = BCAB1A87183A951400FBD794 /* Build configuration list for PBXProject "CoolTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCAB1A83183A951400FBD794;
+			productRefGroup = BCAB1A8D183A951400FBD794 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCAB1A8B183A951400FBD794 /* CoolTable */,
+				BCAB1AAC183A951400FBD794 /* CoolTableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCAB1A8A183A951400FBD794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAB1AA8183A951400FBD794 /* Images.xcassets in Resources */,
+				BCAB1A9A183A951400FBD794 /* InfoPlist.strings in Resources */,
+				BCAB1AC8183A9C5800FBD794 /* muxi.png in Resources */,
+				BCAB1AA3183A951400FBD794 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAB1AAB183A951400FBD794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAB1AB9183A951400FBD794 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCAB1A88183A951400FBD794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAB1ACB183AA09B00FBD794 /* CustomCellBackground.m in Sources */,
+				BCAB1AA0183A951400FBD794 /* AppDelegate.m in Sources */,
+				BCAB1ACE183AB23800FBD794 /* Common.m in Sources */,
+				BCAB1AC6183A955300FBD794 /* CoolTableViewController.m in Sources */,
+				BCAB1A9C183A951400FBD794 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAB1AA9183A951400FBD794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAB1ABB183A951400FBD794 /* CoolTableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCAB1AB3183A951400FBD794 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCAB1A8B183A951400FBD794 /* CoolTable */;
+			targetProxy = BCAB1AB2183A951400FBD794 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCAB1A98183A951400FBD794 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCAB1A99183A951400FBD794 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BCAB1AA1183A951400FBD794 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCAB1AA2183A951400FBD794 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCAB1AB7183A951400FBD794 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCAB1AB8183A951400FBD794 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCAB1ABC183A951400FBD794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCAB1ABD183A951400FBD794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCAB1ABF183A951400FBD794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoolTable/CoolTable-Prefix.pch";
+				INFOPLIST_FILE = "CoolTable/CoolTable-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BCAB1AC0183A951400FBD794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoolTable/CoolTable-Prefix.pch";
+				INFOPLIST_FILE = "CoolTable/CoolTable-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BCAB1AC2183A951400FBD794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoolTable.app/CoolTable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoolTable/CoolTable-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CoolTableTests/CoolTableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BCAB1AC3183A951400FBD794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoolTable.app/CoolTable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoolTable/CoolTable-Prefix.pch";
+				INFOPLIST_FILE = "CoolTableTests/CoolTableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCAB1A87183A951400FBD794 /* Build configuration list for PBXProject "CoolTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAB1ABC183A951400FBD794 /* Debug */,
+				BCAB1ABD183A951400FBD794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCAB1ABE183A951400FBD794 /* Build configuration list for PBXNativeTarget "CoolTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAB1ABF183A951400FBD794 /* Debug */,
+				BCAB1AC0183A951400FBD794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCAB1AC1183A951400FBD794 /* Build configuration list for PBXNativeTarget "CoolTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAB1AC2183A951400FBD794 /* Debug */,
+				BCAB1AC3183A951400FBD794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCAB1A84183A951400FBD794 /* Project object */;
+}
