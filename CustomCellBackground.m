@@ -22,16 +22,23 @@
     CGContextRef context = UIGraphicsGetCurrentContext();//UIGraphicsGetCurrentContext() to get the Core Graphics Context that you’ll use in the rest of the method.
     UIColor * whiteColor = [UIColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:1.0];
     UIColor * lightGrayColor = [UIColor colorWithRed:230.0/255.0 green:230.0/255.0 blue:230.0/255.0 alpha:1.0];
-    UIColor * redColor = [UIColor colorWithRed:1.0 green:0.0 blue:0.0 alpha:1.0];
-   // CGContextSetFillColorWithColor(context, redColor.CGColor);//very easy to convert the easy-to-use UIColor to a CGColor – just by accessing the CGColor property of the UIColor.
+    UIColor * separatorColor = [UIColor colorWithRed:208.0/255.0 green:208.0/255.0 blue:208.0/255.0 alpha:1.0];
+  
     CGRect paperRect = self.bounds;
-    //CGContextFillRect(context, self.bounds);
     drawLinearGradient(context, paperRect, whiteColor.CGColor, lightGrayColor.CGColor);
     
-    CGRect strokeRect = rectFor1PxStroke(CGRectInset(paperRect, 1.0, 1.0));
-    CGContextSetStrokeColorWithColor(context, redColor.CGColor);
+    CGRect strokeRect = paperRect;
+    strokeRect.size.height -= 1;
+    strokeRect = rectFor1PxStroke(strokeRect);
+    CGContextSetStrokeColorWithColor(context, whiteColor.CGColor);
+    
+  
     CGContextSetLineWidth(context, 1.0);
     CGContextStrokeRect(context, strokeRect);
+    
+    CGPoint startPoint = CGPointMake(paperRect.origin.x, paperRect.origin.y + paperRect.size.height -1);
+    CGPoint endPoint = CGPointMake(paperRect.origin.x + paperRect.size.width -1, paperRect.origin.y + paperRect.size.height -1 );
+    draw1PxStroke(context, startPoint, endPoint, separatorColor.CGColor);
 }
 /*
 // Only override drawRect: if you perform custom drawing.
