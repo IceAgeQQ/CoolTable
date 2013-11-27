@@ -8,6 +8,7 @@
 
 #import "CoolTableViewController.h"
 #import "CustomCellBackground.h"
+#import "CustomHeader.h"
 @interface CoolTableViewController ()
 @property (copy) NSMutableArray *thingsToLearn;
 @property (copy) NSMutableArray *thingsLearned;
@@ -32,6 +33,13 @@
     self.thingsLearned = [@[@"Table Views",@"UIKit",@"Objective-C"]mutableCopy];
 }
 
+-(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
+    return [[CustomHeader alloc]init];
+}
+
+-(CGFloat )tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
+    return 50;
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

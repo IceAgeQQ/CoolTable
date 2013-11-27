@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC7AA231184579CF00E748AD /* CustomHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7AA230184579CF00E748AD /* CustomHeader.m */; };
 		BCAB1A90183A951400FBD794 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAB1A8F183A951400FBD794 /* Foundation.framework */; };
 		BCAB1A92183A951400FBD794 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAB1A91183A951400FBD794 /* CoreGraphics.framework */; };
 		BCAB1A94183A951400FBD794 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAB1A93183A951400FBD794 /* UIKit.framework */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC7AA22F184579CF00E748AD /* CustomHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomHeader.h; path = ../CustomHeader.h; sourceTree = "<group>"; };
+		BC7AA230184579CF00E748AD /* CustomHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomHeader.m; path = ../CustomHeader.m; sourceTree = "<group>"; };
 		BCAB1A8C183A951400FBD794 /* CoolTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCAB1A8F183A951400FBD794 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BCAB1A91183A951400FBD794 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -124,6 +127,8 @@
 			children = (
 				BCAB1A9E183A951400FBD794 /* AppDelegate.h */,
 				BCAB1A9F183A951400FBD794 /* AppDelegate.m */,
+				BC7AA22F184579CF00E748AD /* CustomHeader.h */,
+				BC7AA230184579CF00E748AD /* CustomHeader.m */,
 				BCAB1AC4183A955300FBD794 /* CoolTableViewController.h */,
 				BCAB1AC5183A955300FBD794 /* CoolTableViewController.m */,
 				BCAB1ACC183AB23800FBD794 /* Common.h */,
@@ -264,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCAB1ACB183AA09B00FBD794 /* CustomCellBackground.m in Sources */,
+				BC7AA231184579CF00E748AD /* CustomHeader.m in Sources */,
 				BCAB1AA0183A951400FBD794 /* AppDelegate.m in Sources */,
 				BCAB1ACE183AB23800FBD794 /* Common.m in Sources */,
 				BCAB1AC6183A955300FBD794 /* CoolTableViewController.m in Sources */,
@@ -478,6 +484,7 @@
 				BCAB1AC0183A951400FBD794 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCAB1AC1183A951400FBD794 /* Build configuration list for PBXNativeTarget "CoolTableTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +493,7 @@
 				BCAB1AC3183A951400FBD794 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
