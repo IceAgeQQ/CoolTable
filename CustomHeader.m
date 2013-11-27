@@ -40,20 +40,36 @@
 
 -(void) drawRect:(CGRect)rect{
     CGContextRef context = UIGraphicsGetCurrentContext();
-    UIColor * redColor = [UIColor colorWithRed:1.0 green:0.0 blue:0.0 alpha:1.0];
+    UIColor * whiteColor = [UIColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:1.0];
+    UIColor * shadowColor = [UIColor colorWithRed:0.2 green:0.2 blue:0.2 alpha:0.5];
     
-    CGContextSetFillColorWithColor(context, redColor.CGColor);
-    CGContextFillRect(context, self.bounds);
+    CGContextSetFillColorWithColor(context, whiteColor.CGColor);
+    CGContextFillRect(context, _paperRect);
+    
+    CGContextSaveGState(context);
+    CGContextSetShadowWithColor(context, CGSizeMake(0, 2), 3.0, shadowColor.CGColor);//set up shadow drawing.The first parameter is the offset of the shadow to draw. Here you set it up to draw 2 points underneath the given path.
+    //  The next parameter is the blur of the shadow. A value of 0 would be a hard edge, the larger the values are the softer the edge. You set the value to 3 for a soft edge.
+    CGContextSetFillColorWithColor(context, self.lightColor.CGColor);
+    CGContextFillRect(context, self.coloredBoxRect);
+    CGContextRestoreGState(context);
+    
+    drawGlossAndGradient(context, self.coloredBoxRect, self.lightColor.CGColor, self.darkColor.CGColor);
+    CGContextSetStrokeColorWithColor(context, self.darkColor.CGColor);
+    CGContextSetLineWidth(context, 1.0);
+    CGContextStrokeRect(context, rectFor1PxStroke(self.coloredBoxRect));
 }
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
-{
-    // Drawing code
+-(void) layoutSubviews{
+    CGFloat coloredBoxMargin = 6.0;
+    CGFloat coloredBoxHeight = 40.0;
+    self.coloredBoxRect = CGRectMake(coloredBoxMargin, coloredBoxMargin, self.bounds.size.width-coloredBoxMargin*2, coloredBoxHeight);
+    
+    CGFloat paperMargin = 9.0;
+    self.paperRect = CGRectMake(paperMargin, CGRectGetMaxY(self.coloredBoxRect), self.bounds.size.width-paperMargin*2, self.bounds.size.height-CGRectGetMaxY(self.coloredBoxRect));
+    
+    self.titleLabel.frame = self.coloredBoxRect;
 }
-*/
+
 
 @end
 
